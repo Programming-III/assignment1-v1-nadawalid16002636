@@ -3,8 +3,19 @@
 
 #include <string>
 using namespace std;
+class Visitor() ;
+ private:
+    string visitorName;
+    int ticketsBought;
+    
+ public:
+ void displayInfo(string visitorName, int ticketsBought) {
+     this->visitorName=visitorName;
+     this->ticketsBought=ticketsBought;
+ }
+ 
+ 
 
-//define visitor class here
 
 
 
