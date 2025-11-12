@@ -3,7 +3,17 @@
 
 #include "Animal.h"
 
-//define enclosure class here 
+class Enclosure() :: public Animal {
+    private:
+    arr[Animal*];
+    int capacity;
+    int currentCount;
+    
+    public:
+    void addAnimal (Animal* a);
+    void displayAnimals(int currentCount);
+     arr[Animal* int currentCount];
+}
 
 
 
