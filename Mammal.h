@@ -3,7 +3,12 @@
 
 #include "Animal.h"
 
-//define mammal class here
+class Mammal() :: public Animal {
+    private:
+    string furColor;
+    public:
+    void displayMammal(string name,int age,bool isHungry);
+}
 
 
 
